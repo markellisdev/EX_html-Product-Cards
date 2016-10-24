@@ -1,0 +1,72 @@
+main {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+/* ----------- Card Stying ----------- */
+
+.threeCards {
+	width: 100%;
+	margin: auto;
+
+}
+
+
+.card {
+	width: 30%;
+	border: 1px solid lightblue;
+	display: inline-block;
+	margin: 10px 10px;
+}
+
+/*header {
+	border-bottom: 1px dotted lightgrey;
+}*/
+ /*?16-1016? - The above works, but not the id below...Why?*/
+#title {
+	border-bottom: 1px dotted lightgrey;
+}
+
+h2 {
+	text-align: center;
+}
+
+.ui link cards {
+	width: 100%;
+}
+
+img {
+	display: block;
+	height: 202px;
+	width: 150px;
+	margin: auto;
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+.description {
+	margin: auto;
+	text-align: justify;
+}
+
+.availability {
+	background-color: darkgrey;
+	text-align: left;
+	color: yellow;
+}
+
+
+.productSpecs li{
+	font-weight: bold;
+}
+
+.pricing li{
+	font-weight: bold;
+}
+
+.threeCards {
+	width: 80%;
+}
