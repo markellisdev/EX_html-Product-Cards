@@ -1,4 +1,10 @@
+main {
+	width: 100%;
+}
 
+ul {
+	list-style: none;
+}
 /* ----------- Card Stying ----------- */
 
 .threeCards {
@@ -12,7 +18,7 @@
 	width: 30%;
 	border: 1px solid lightblue;
 	display: inline-block;
-	margin: 0 auto;
+	margin: 10px 10px;
 }
 
 /*header {
@@ -43,11 +49,24 @@ img {
 
 .description {
 	margin: auto;
+	text-align: justify;
 }
 
 .availability {
 	background-color: lightgrey;
-	text-align: center;
+	text-align: left;
+	color: yellow;
 }
 
 
+.productSpecs li{
+	font-weight: bold;
+}
+
+.pricing li{
+	font-weight: bold;
+}
+
+.threeCards {
+	width: 80%;
+}
